@@ -1771,7 +1771,7 @@ h1.page-title.mb- {
     z-index: 99999;
     width: 50px;
     height: 60px;
-    background: url(images/gotop.png) no-repeat center;
+    background: url(assets/img/gotop.png) no-repeat center;
     background-size: contain;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
@@ -2201,7 +2201,7 @@ color: #FF4646;
     height: 40px;
     text-align: center;
     line-height: 45px;
-    background-image: url("images/postload.gif");
+    background-image: url("assets/img/postload.gif");
     background-position: center;
     background-repeat: no-repeat;
 }
