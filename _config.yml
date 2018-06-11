@@ -1,0 +1,20 @@
+title: "Siren-jekyll"
+description: ""
+url: 
+baseurl: ""
+author: "LiarOnce"
+paginate: 5
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+exclude:
+  - package.json
+  - Gemfile
+  - Gemfile.lock
+  - siren-jekyll.gemspec
+  - LICENSE
+  - README.md
