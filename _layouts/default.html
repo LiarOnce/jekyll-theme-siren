@@ -13,6 +13,13 @@ layout: compress
                 </div>
             </div>
         </section>
-        {% include footer.html %}
+        {% include footer/footer.html %}
+        {% include footer/footer-loading.html %}
+        {% include footer/footerjs.html %}
+        <div class="site-statistics">
+            {% if site.data.site.piwik_analytics != "" %}
+                {% include analytics/piwik.html %}
+            {% endif %}
+        </div>
     </body>
 </html>
