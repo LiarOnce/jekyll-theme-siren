@@ -6,10 +6,7 @@ author: "LiarOnce"
 paginate: 5
 paginate_path: "/page:num/"
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
+theme: siren-jekyll
 
 exclude:
   - package.json
